@@ -6,7 +6,7 @@ Through this group work, you will learn how to read code, search and report secu
 
 ## Backgroud 
 
-You are given a tiny program (see main.py) with text-based user interface, which allows one to store basic information on students.  There are many serious  flaws and vulnerabilities in the program. You will practice finding, reporting and  and fixing them.  Please read more background information (including assessment criteria) in Canvas.
+You are given a tiny program (see main.py) with a text-based user interface, which allows one to store basic information on students.  There are many serious  flaws and vulnerabilities in the program. You will practice finding, reporting,  and fixing them.  Please read more background information (including assessment criteria) in Canvas.
 
 ## Preparatory actions
 
@@ -16,10 +16,11 @@ You are given a tiny program (see main.py) with text-based user interface, which
 
 ## Workflow actions
 
-1.  Examine the main code (main.py) carefully and test different usage scenarios.  You can test code either manually (this is, by running the code and entering values by hand) or code automatic tests.  You can find examples of simple hardcoded unit tests in test.py (please note that hardcoding unit tests is not good practice in most professional contexts, but works well for this exercise) and expand on those.
+1.  Examine the main code (main.py) carefully and test different usage scenarios.  You can test code either manually (that is, by running the code and entering values by hand) or by running automatic tests.  You can find examples of simple hardcoded unit tests in test.py (please note that hardcoding unit tests is not good practice in most professional contexts, but works well for this exercise) and expand on those.
 2.  For finding issues that are more difficult to spot, search online for information about  "SQL injection" and "Directory Traversal".  
-3.  As soon as you find a security flaw, use GitHub to file a Security Vulnerability Report. Use this template as a basis of your vulnability report: [Vulnerability Report Templete by GitHub Security Lab] (https://github.com/github/securitylab/blob/main/docs/report-template.md).  The text-based report does not have mandatory fields, but you should provide as much information as possible.  It is particularly important to provide exact steps to reproduce the vulnerablity (in this case,  tested example code on how an attacker could use it).  There must be a separate report for each vulnerability found.
-4. If you still have time, try fixing some of the found security  vulnerabilities (or make other well-reasoned improvements to the code).  Please edit the code with Visual Studio Code and, preferably, also try out GitHup Copilot extension (btw, this can also help spot new security flaws). Please always make your code changes first to a new branch, then send pull request to the main repository and merge the repositories.
-5. Make sure that all relevant code changes are merged into the main repository before submitting the assigment for review. See Canvas for instructions on how to submit. 
+3.  As soon as you find a security flaw, use GitHub to file a Security Vulnerability Report. Use this template as a basis for your vulnerability report: [Vulnerability Report Template by GitHub Security Lab] (https://github.com/github/securitylab/blob/main/docs/report-template.md).  The text-based report does not have mandatory fields, but you should provide as much information as possible.  It is particularly important to provide exact steps to reproduce the vulnerability (in this case, a tested example code on how an attacker could use it).  There must be a separate report for each vulnerability found.
+4. Try fixing some of the found security  vulnerabilities (or make other well-reasoned improvements to the code).
+    - Please always make your code changes first to a new branch, then send pull request to the main repository and merge the repositories.
+   - Make sure that all relevant code changes are merged into the main repository before submitting the assigment for review. See Canvas for instructions on how to submit. 
     
 
